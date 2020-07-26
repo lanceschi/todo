@@ -6,6 +6,7 @@
   - [1.1. Run in development mode](#11-run-in-development-mode)
   - [1.2. Build the webapp](#12-build-the-webapp)
   - [1.3. Launch the webapp test coverage](#13-launch-the-webapp-test-coverage)
+- [2. Notes](#2-notes)
 
 <!-- /TOC -->
 
@@ -48,5 +49,9 @@ $ npm run build
 ```bash
 $ npm run test:coverage
 ```
+
+# 2. Notes
+
+This repo embeds a automatised github action workflow in order to test every git commit, merge and release operations.
 
 [1]: https://github.com/nvm-sh/nvm
