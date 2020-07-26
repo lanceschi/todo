@@ -1,6 +1,6 @@
 {
   "name": "todo-list-challenge",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "To-Do List Challenge",
   "main": "src/index.js",
   "scripts": {
@@ -8,6 +8,8 @@
     "dev": "NODE_ENV=development webpack-dev-server --env development --config webpack/develop.js --inline --progress --profile --colors --watch --display-error-details --display-cached",
     "build": "NODE_ENV=production webpack --env production --config webpack/production.js --progress",
     "build:run": "cd dist/ && python3 -m http.server 3000 && cd ..",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "test": "NODE_ENV=test jest --notify --colors --config jest/config.js --no-cache -u",
     "test:watch": "NODE_ENV=test jest --colors --config jest/config.js --no-cache --watch -u",
     "test:coverage": "NODE_ENV=test jest --config jest/config.js --coverage -u",
@@ -45,6 +47,7 @@
     "css-loader": "^3.6.0",
     "eslint": "^7.5.0",
     "file-loader": "^6.0.0",
+    "gh-pages": "^3.1.0",
     "handlebars": "^4.7.6",
     "handlebars-loader": "^1.7.1",
     "html-webpack-plugin": "^4.3.0",

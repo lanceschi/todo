@@ -28,20 +28,9 @@ module.exports = {
   },
   output: {
     path: join(__cwd, destFolder),
+    publicPath: 'todo/',
     filename: '[name].[contenthash].js',
     globalObject: `(typeof self !== 'undefined' ? self : this)`,
-  },
-  devServer: {
-    contentBase: join(__cwd, destFolder),
-    hot: true,
-    compress: true,
-    port: 3000,
-    historyApiFallback: {
-      index: '/',
-    },
-    headers: {
-      'Access-Control-Allow-Origin': '*',
-    },
   },
   module: {
     rules: [
