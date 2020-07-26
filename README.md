@@ -1,3 +1,5 @@
+![ci](https://github.com/lanceschi/todo/workflows/ci/badge.svg)
+
 <!-- TOC -->
 
 - [1. Development notes](#1-development-notes)
