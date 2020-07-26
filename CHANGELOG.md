@@ -9,6 +9,6 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Added
 - Added documentation notes in README.md
-- Added Github test workflow
+- Added Github test action workflow
 
 ## [x.x.x] - 2020-07-26
