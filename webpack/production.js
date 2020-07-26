@@ -47,9 +47,10 @@ module.exports = {
         use: [
           {
             loader: 'file-loader',
-            options: {
-              outputPath: '/img/',
-              name: '/[name]-[hash].[ext]',
+            options: {///todo/css/todo/drawkit-nature-man-monochrome-868711a0e8abddcaec9bd5b03233a205.svg
+              publicPath: '/todo/img',
+              outputPath: 'img',
+              name: '[name]-[hash].[ext]',
             },
           },
         ],
