@@ -1,0 +1,7 @@
+# https://browserl.ist/
+# last 1 version
+# last 4 Chrome versions
+# last 4 Firefox versions
+> 5%
+not ie <= 11
+# not dead

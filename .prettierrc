@@ -1,0 +1,24 @@
+{
+  "bracketSpacing": true,
+  "useTabs": false,
+  "tabWidth": 2,
+  "semi": true,
+  "singleQuote": true,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": ["config/**/*.json*"],
+      "options": {
+        "singleQuote": false,
+        "quoteProps": "preserve"
+      }
+    },
+    {
+      "files": ["src/.fsa-types/**/*.js"],
+      "options": {
+        "singleQuote": true,
+        "quoteProps": "preserve"
+      }
+    }
+  ]
+}

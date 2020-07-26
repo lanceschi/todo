@@ -1,0 +1,71 @@
+.Wrapper {
+  display: grid;
+  height: 100vh;
+
+  grid-template-areas:
+    'header'
+    'form';
+
+  grid-template-rows: auto 1fr;
+  grid-template-columns: 1fr;
+}
+
+.Header {
+  grid-area: header;
+}
+
+.FormWrapper {
+  grid-area: form;
+  width: 100%;
+}
+
+.FormContent {
+  padding: 10px;
+  padding-top: 20px;
+
+  button {
+    min-width: 100px;
+    min-height: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      margin: 0;
+      padding-left: 0.5rem;
+      font-size: 0.96rem;
+    }
+  }
+}
+
+.FormGroup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+  max-width: 768px;
+
+  label {
+    margin-bottom: 5px;
+    font-size: 0.98rem;
+    font-family: sans-serif;
+    font-weight: 600;
+  }
+
+  input {
+    font-size: 1.1rem;
+  }
+
+  textarea {
+    font-size: 1rem;
+    resize: vertical;
+  }
+}
+
+
+.Tip {
+  color: red;
+  margin-top: 5px;
+  font-size: 0.98rem;
+  font-family: sans-serif;
+  font-weight: 600;  
+}

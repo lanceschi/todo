@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "allowSyntheticDefaultImports": false,
+    "baseUrl": ".",
+    "paths": {
+      "Api/*": ["./src/api/*"],
+      "Components/*": ["./src/components/*"],
+      "Shared/*": ["./src/shared/*"],
+      "AppStore": ["./src/store/index.js"],
+      "AppStore/*": ["./src/store/*"],
+      "FSATypes/*": ["./src/.fsa-types/*"],
+      "FSAActions/*": ["./src/actions/*"],
+      "Reducers": ["./src/reducers/index.js"],
+      "Reducers/*": ["./src/reducers/*"],
+      "Sagas/*": ["./src/sagas/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}

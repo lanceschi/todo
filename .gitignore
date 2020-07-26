@@ -1,0 +1,31 @@
+# OS generated files #
+######################
+.DS_Store?
+.DS_Store
+._.DS_Store
+ehthumbs.db
+._*
+Thumbs.db
+
+
+# Folders #
+######################
+node_modules
+build
+__snapshots__
+dist
+tmp
+coverage
+.vscode
+
+
+# Files #
+######################
+*.swp
+npm-debug.log
+gitflow.md
+_index.js
+_index.jsx
+
+src/app/config/index.js
+src/app/config/build-number.js

@@ -1,0 +1,49 @@
+@import (reference) 'mixins.less';
+
+.Header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+  grid-area: header;
+  background-color: #ddd;
+
+  h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+  button {
+    min-width: 100px;
+    min-height: 29px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    p {
+      margin: 0;
+      padding-left: .5rem;
+      font-size: .96rem;
+    }
+  }
+
+  span {
+    min-width: 100px;
+  }
+
+  @media @mobileLarge {
+    h1 {
+      font-size: 1.1rem;
+    }    
+    button {
+      min-width: auto;
+    }
+    span {
+      min-width: 36px;
+    }
+    p {
+      display: none;
+    }
+  }  
+}

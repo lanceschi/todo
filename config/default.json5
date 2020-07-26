@@ -1,0 +1,5 @@
+{
+  "srcFolder": "src",
+  "destFolder": "dist",
+  "js-env-variables": "less/js-env-variables/index.js",
+}

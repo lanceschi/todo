@@ -1,0 +1,31 @@
+#notie-overlay {
+  &.notie-background-overlay {
+    background-color: #000;
+  }
+}
+
+.notie-container {
+  font-family: sans-serif;
+  @media all and (min-width: 768px) {
+    font-size: 1.8em;
+  }
+
+  @media all and (max-width: 767px) {
+    font-size: 1.4em;
+  }
+
+  .notie-background-warning {
+    background-color: #4292c6;
+    color: rgba(255, 255, 255, 0.85);
+  }
+
+  .notie-textbox.notie-background-info {
+    background-color: #084594;
+    color: rgba(255, 255, 255, 0.8);
+  }
+
+  .notie-background-neutral {
+    background-color: #2171b5;
+    color: rgba(220, 220, 220, 0.8);
+  }
+}
