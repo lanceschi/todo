@@ -26,4 +26,4 @@ jobs:
           node-version: '12.18'
           registry-url: https://registry.npmjs.org/
       - run: npm ci
-      - run: npm deploy
+      - run: npm run deploy
