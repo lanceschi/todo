@@ -224,7 +224,6 @@
 
 ._3_wVTFoUb5Ew-ialLLfvFs {
   display: grid;
-  height: 100vh;
   grid-template-areas: 'header' 'content' 'footer';
   grid-template-rows: auto 1fr auto;
   grid-template-columns: 1fr;
