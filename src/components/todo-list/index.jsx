@@ -12,6 +12,7 @@ import {
   resetRecorder,
 } from 'FSAActions/recorder';
 import style from './style.module.less';
+import Div100vh from 'react-div-100vh';
 
 export default () => {
   const list = useSelector((state) => state.todo_list.list);
@@ -40,7 +41,7 @@ export default () => {
   }, []);
 
   return (
-    <div className={style.GridWrapper}>
+    <Div100vh className={style.GridWrapper}>
       <Header
         createNew={handleCreateNew}
         deleteList={handleDeleteList}
@@ -62,6 +63,6 @@ export default () => {
         play={handlePlay}
         resetRecorder={handleResetRecorder}
       />
-    </div>
+    </Div100vh>
   );
 };
