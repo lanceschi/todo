@@ -1,4 +1,4 @@
-name: npm publish
+name: deploy demo
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
       - run: npm ci
       - run: npm test
 
-  publish-npm:
+  deploy-demo:
     needs: build
     runs-on: ubuntu-latest
     steps:
