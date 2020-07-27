@@ -1,6 +1,6 @@
 {
   "name": "todo-list-challenge",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "To-Do List Challenge",
   "main": "src/index.js",
   "scripts": {
