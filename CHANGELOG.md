@@ -7,6 +7,16 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.2] - 2020-07-27
+
+### Added
+
+- Github action workflow for deployment
+
+### Bugfix
+
+- Fixed issue with mobile layout height
+
 ## [1.0.2] - 2020-07-26
 
 ### Changed
